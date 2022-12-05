@@ -20,20 +20,20 @@ public class MoodAnalyserTest {
         System.out.println(mood);
         Assertions.assertEquals("HAPPY", mood);
     }*/
-    @Test
+    /*@Test
     public void givenMessage_WhenProper_ShouldReturnSad() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("I am in sad mood");
         String sadMood = moodAnalyser.analyseMood();
         System.out.println(sadMood);
         Assertions.assertEquals("SAD", sadMood);
-    }
+    }*/
 
-   /* @Test
+   @Test
     public void givenMessage_WhenProper_ShouldReturnHappy() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("I am in happy mood");
         String happyMood = moodAnalyser.analyseMood();
         System.out.println(happyMood);
         Assertions.assertEquals("HAPPY", happyMood);
 
-    }*/
+    }
 }
