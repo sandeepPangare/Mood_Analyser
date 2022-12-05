@@ -34,6 +34,12 @@ public class MoodAnalyserTest {
         String happyMood = moodAnalyser.analyseMood();
         System.out.println(happyMood);
         Assertions.assertEquals("HAPPY", happyMood);
-
+    }
+    @Test
+    public void givenMessage_WhenProper_ShouldReturnNull() throws MoodAnalyserException {
+        MoodAnalyser moodAnalyser = new MoodAnalyser(null);
+        String nullMood = moodAnalyser.analyseMood();
+        System.out.println(nullMood);
+        Assertions.assertEquals("HAPPY", nullMood);
     }
 }
