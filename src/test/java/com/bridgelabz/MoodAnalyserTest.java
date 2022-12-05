@@ -28,12 +28,12 @@ public class MoodAnalyserTest {
         Assertions.assertEquals("SAD", sadMood);
     }
 
-    @Test
+   /* @Test
     public void givenMessage_WhenProper_ShouldReturnHappy() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("I am in happy mood");
         String happyMood = moodAnalyser.analyseMood();
         System.out.println(happyMood);
         Assertions.assertEquals("HAPPY", happyMood);
 
-    }
+    }*/
 }
